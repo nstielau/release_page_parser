@@ -1,0 +1,73 @@
+Gettign list of changes with parents:  MGMT-12067,MGMT-12300,MGMT-11769,MGMT-12314,MGMT-12317,MGMT-11878,MGMT-11782,MGMT-8890,MGMT-12261,MGMT-11737,MGMT-1107,MGMT-12167,MGMT-11700,MGMT-12198,MGMT-11642,MGMT-8890,MGMT-11129,MGMT-11736,MGMT-11751,MGMT-8578,MGMT-10557,MGMT-11878,MGMT-11635,MGMTBUGSM-529,MGMT-11753,MGMT-11293,MGMT-12074,MGMT-12305,MGMT-12077,MGMT-12305,AGENT-284,AGENT-347,AGENT-375,AGENT-349,IR-262,OCPCLOUD-1677,NE-975,OCPCLOUD-1673,OCPCLOUD-1675,STOR-971,NE-929,NE-1071,CFE-478,NE-975,NE-956,CFE-551,SDN-2591,SDN-3515,BUILD-534,CONSOLE-3276,ODC-6786,CONSOLE-3190,ODC-6771,ODC-6785,ODC-6772,OU-38,OU-56,CONSOLE-3125,ODC-6778,BUILD-530,NE-1071,STOR-1040,OCPCLOUD-1131,MCO-400,MCO-396,RFE-2962,MCO-371,SDN-3515,SDN-3515,OLM-2695,USHIFT-357,USHIFT-356,USHIFT-358,USHIFT-351,
+Nesting parents
+OCPPLAN-3597, OCPPLAN-8150, OCPPLAN-9015, OCPBU-16, OCPBU-16, OCPBU-50, OCPPLAN-6007, OCPPLAN-7878, OCPPLAN-6007, OCPPLAN-6007, OCPPLAN-3599, OCPBU-144, OCPBU-50, OCPPLAN-9332, 
+
+Changes by parent
+Epic MGMT-11058: Support setting kernel parameters for discovery
+
+Epic MGMT-11089: Post-reboot status reporter service
+
+Market Problem OCPPLAN-3597: Install and upgrade OpenShift everywhere
+    Feature OCPPLAN-4577: OpenShift support for Heterogeneous clusters
+
+Epic MGMT-10556: Deploy LVMO with Assisted Installer
+
+Epic MGMT-11291: OVNKubernetes to be the default CNI in 4.12
+
+Feature OCPPLAN-8150: Agent-Based Installer GA
+    Epic AGENT-61: Ensure FIPS compliant deployment
+
+Epic IR-192: Manifest lists support
+
+Feature OCPPLAN-9015: Upgrade to Kubernetes 1.25
+    Epic OCPCLOUD-1663: Rebase cluster autoscaler on Kubernetes 1.25
+
+Epic NE-942: Add field in installer to get LB type for AWS
+
+Feature OCPBU-16: Control Plane Scaling and Recovery (IPI clusters only)
+    Epic OCPCLOUD-1372: Managed Control Plane Machines (ControlPlaneMachineSet)
+
+    Epic OCPCLOUD-1697: ControlPlaneMachineSet Technical Debt
+
+Feature OCPBU-50: Ensuring the Control Plane is Fully Decoupled for Hosted Control Planes
+    Epic STOR-961: Ensure cluster-snapshot-controller-operator is running on hosted control planes
+
+    Epic STOR-960: Ensure openshift cluster-storage-operator & aws-ebs-csi-driver-operator are running on hosted control planes
+
+Feature OCPPLAN-6007: OpenShift Core Networking Improvements
+    Epic NE-757: Ability to tune the caching done by CoreDNS 
+
+    Epic NE-682: Capture Metrics and Telemetry Associated with Use of Routes and Shards
+
+    Epic NE-555: Support a New API for Enabling and Configuring spec.loadbalancersourceranges
+
+Feature OCPPLAN-7878: NetEdge - Maintainability and Debugability & Tech Backlog
+    Epic NE-1072: Default HAProxy maxconn value to 50000 for OCP 4.12
+
+Market Problem OCPPLAN-3599: Drive Workload and Consumption by empowering Developers and Admins
+    Feature OCPPLAN-6007: OpenShift Core Networking Improvements
+
+Epic BUILD-529: Kubernetes 1.25 Rebases
+
+Epic CONSOLE-3174: OCP 4.12 - Dynamic Plugins Epic
+
+Epic ODC-5897: Provide ability for admins to hide perspective
+
+Epic CONSOLE-3189: OCP 4.12 - OLM Epic
+
+Epic ODC-4707: Improve awareness of resource/project limits and quotas issues for developers
+
+Epic OU-34: Convert existing monitoring UI pages into a dynamic plugin
+
+Feature OCPBU-144: Unified Console
+    Epic CONSOLE-3234: Phase 3 - Pre-Work Unite Consoles (ACM, OCP)
+
+Epic ODC-6695: Allow admins to disable the Dev Catalog, or one or more of its sub-catalogs
+
+Epic OPNET-19: OPNET Backlog
+
+Feature OCPPLAN-9332: Ability to apply hotfix packages to RHCOS via Layering
+    Epic MCO-293: Replace machine-os-content with new format base image
+
+Epic OLM-2600: Update OLM to address the security changes coming from PSA in 4.12
+
